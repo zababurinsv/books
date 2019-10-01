@@ -1,0 +1,20 @@
+<svg id="cartButton" style="overflow:visible" xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <title>cartButton</title>
+	<linearGradient id="cartButtonGradient" data-name="cartButtonGradient" y1="25" x2="200" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+	</linearGradient>
+	<g id="cartButton1">
+		<rect width="200" height="7" style="fill: red"/>
+	</g>
+	<g id="cartButton2">
+		<rect y="7" width="200" height="36" style="fill: red"/>
+	</g>
+	<g id="cartButton3">
+		<rect y="43" width="200" height="7" style="fill: red"/>
+	</g>
+	<g id="cartButton4">
+		<rect width="200" height="50" style="fill: url(#cartButtonGradient)"/>
+	</g>
+</svg>
